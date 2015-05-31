@@ -29,7 +29,9 @@ public class OrikaBeanMapperTest {
 
 		// Then
 		Assert.assertEquals(userDto.getId(), "1");
+		// Our UserUserDtoMapper told orika mapper how to populate the fullName attribute.
 		Assert.assertEquals(userDto.getFullName(), "Pep Guardiola");
+		// Our AddressToStringConverter told orika how to convert an Address object to a String.
 		Assert.assertEquals(userDto.getAddress(), "25, Barcelona St.");
 	}
 
