@@ -10,7 +10,7 @@ Example on how to integrate Orika mapper into Spring the simplest and most effec
   @Autowired
   private OrikaBeanMapper mapper;
   ...
-  mapper.map(user, UserDto.class);
+  ProductDto dto = mapper.map(user, UserDto.class);
   ```
   
 ## Custom Mappers [(example)](src/main/java/com/dlizarra/orika/mapper/custom/UserUserDtoMapper.java)
