@@ -5,6 +5,7 @@ import java.util.Map;
 import ma.glasnost.orika.Converter;
 import ma.glasnost.orika.Mapper;
 import ma.glasnost.orika.MapperFactory;
+import ma.glasnost.orika.converter.ConverterFactory;
 import ma.glasnost.orika.impl.ConfigurableMapper;
 import ma.glasnost.orika.impl.DefaultMapperFactory;
 import ma.glasnost.orika.metadata.ClassMapBuilder;
@@ -50,7 +51,7 @@ public class OrikaBeanMapper extends ConfigurableMapper implements ApplicationCo
 	}
 
 	/**
-	 * Constructs and registers a {@link ClassMapBuilder} using a {@link Mapper}.
+	 * Constructs and registers a {@link ClassMapBuilder} into the {@link MapperFactory} using a {@link Mapper}.
 	 * 
 	 * @param mapper
 	 */
@@ -63,7 +64,7 @@ public class OrikaBeanMapper extends ConfigurableMapper implements ApplicationCo
 	}
 
 	/**
-	 * Registers a {@link Converter} into the ConverterFactory.
+	 * Registers a {@link Converter} into the {@link ConverterFactory}.
 	 * 
 	 * @param converter
 	 */
