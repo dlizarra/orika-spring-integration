@@ -6,11 +6,11 @@ Example on how to integrate Orika mapper into Spring the simplest and most effec
 - Registers into the MapperFactory all CustomConverter and CustomMapper classes annotated with `@Component`.
 - To use it we just need to autowire it into the class and we'll be able to map any combination of classes with it:
 
-  ```
+  ```java
   @Autowired
   private OrikaBeanMapper mapper;
   ...
-  ProductDto dto = mapper.map(user, UserDto.class);
+  UserDto dto = mapper.map(user, UserDto.class);
   ```
   
 ## Custom Mappers [(example)](src/main/java/com/dlizarra/orika/mapper/custom/UserUserDtoMapper.java)
