@@ -9,7 +9,9 @@ Example on how to integrate Orika mapper into Spring the simplest and most effec
   ```java
   @Autowired
   private OrikaBeanMapper mapper;
-  ...
+  private User user;
+  
+  user = MockUtils.mockUser();
   UserDto dto = mapper.map(user, UserDto.class);
   ```
   
