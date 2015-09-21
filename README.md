@@ -26,5 +26,4 @@ Example on how to integrate Orika mapper into Spring the simplest and most effec
 - Annotate the class with `@Component` so it can be discovered by `OrikaBeanMapper`.
 
 ### References
-- This sample project follows Ken Blair's idea on how to do the integration: http://kenblair.net/orika-spring-easy-bean-mapping/
 - Orika Mapper GitHub project: http://github.com/orika-mapper
