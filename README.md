@@ -14,7 +14,7 @@ This is the class you want to import into your project, or just copy-paste as it
   private OrikaBeanMapper mapper;
   private User user;
   
-  user = MockUtils.mockUser();
+  user = new User("Leo", "Messi", 28);
   UserDto dto = mapper.map(user, UserDto.class);
   ```
   
