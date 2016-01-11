@@ -1,5 +1,5 @@
 # orika-spring-integration
-Example on how to integrate Orika mapper into Spring the simplest and most effective way possible.
+Example on how to integrate Orika mapper into Spring in a very clean way.
 
 ## OrikaBeanMapper [(link)](src/main/java/com/dlizarra/orika/mapper/OrikaBeanMapper.java)
 This is the class you want to import into your project, or just copy-paste as it is, since, it works the same if you have zero or many custom mappers or converters.
