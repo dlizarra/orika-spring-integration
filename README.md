@@ -7,7 +7,8 @@ This is the class you want to import into your project, or just copy-paste as it
 
 - Configures the Orika MapperFactory and factory builder.
 - Registers into the MapperFactory all CustomConverter and CustomMapper classes annotated with `@Component`.
-- To use it we just need to autowire it into the class and we'll be able to map any combination of classes with it:
+
+To use it we just need to autowire it into the class and we'll be able to map any combination of classes with it:
 
   ```java
   @Autowired
