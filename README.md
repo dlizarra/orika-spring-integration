@@ -31,4 +31,4 @@ To use it we just need to autowire it into the class and we'll be able to map an
 - Annotate the class with `@Component` so it can be discovered by `OrikaBeanMapper`.
 
 ### References
-- Orika Mapper GitHub project: http://github.com/orika-mapper
+- Orika Mapper: http://github.com/orika-mapper
